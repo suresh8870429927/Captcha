@@ -1,0 +1,180 @@
+[1566909746.320][INFO]: Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})
+[1566909746.320][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1566909747.046][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1566909747.048][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1566909747.049][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1566909747.052][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\SURV2E~1\AppData\Local\Temp\scoped_dir4312_1467565300\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\SURV2E~1\AppData\Local\Temp\scoped_dir4312_133556003" data:,
+[1566909748.082][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1566909750.942][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "76.0.3809.100",
+      "chrome": {
+         "chromedriverVersion": "76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})",
+         "userDataDir": "C:\\Users\\SURV2E~1\\AppData\\Local\\Temp\\scoped_dir4312_133556003"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:55418"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows nt",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "ffe86d8126bcd0bb6a16f22cc77530a7"
+}
+[1566909751.422][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND SetTimeouts {
+   "implicit": 10000
+}
+[1566909751.422][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE SetTimeouts
+[1566909751.523][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND Navigate {
+   "url": "https://hiremee.co.in/candidate/login"
+}
+[1566909751.523][INFO]: Waiting for pending navigations...
+[1566909751.524][INFO]: Done waiting for pending navigations. Status: ok
+[1566909754.599][INFO]: Waiting for pending navigations...
+[1566909759.651][INFO]: Done waiting for pending navigations. Status: ok
+[1566909759.651][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE Navigate
+[1566909759.718][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND MaximizeWindow {
+
+}
+[1566909759.718][INFO]: Waiting for pending navigations...
+[1566909759.719][INFO]: Done waiting for pending navigations. Status: ok
+[1566909759.720][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1566909759.827][INFO]: Waiting for pending navigations...
+[1566909759.827][INFO]: Done waiting for pending navigations. Status: ok
+[1566909759.827][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE MaximizeWindow {
+   "height": 1056,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1566909764.879][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id=\"loginForm\"]/div/div/div[2]/div/div/div[3]/div/img"
+}
+[1566909764.879][INFO]: Waiting for pending navigations...
+[1566909764.880][INFO]: Done waiting for pending navigations. Status: ok
+[1566909764.892][INFO]: Waiting for pending navigations...
+[1566909764.893][INFO]: Done waiting for pending navigations. Status: ok
+[1566909764.893][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "197e413c-0c21-4cdf-9770-1d5c65065a23"
+}
+[1566909764.917][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND ElementScreenshot {
+   "id": "197e413c-0c21-4cdf-9770-1d5c65065a23"
+}
+[1566909764.917][INFO]: Waiting for pending navigations...
+[1566909764.918][INFO]: Done waiting for pending navigations. Status: ok
+[1566909765.170][INFO]: Waiting for pending navigations...
+[1566909765.202][INFO]: Done waiting for pending navigations. Status: ok
+[1566909765.202][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE ElementScreenshot "iVBORw0KGgoAAAANSUhEUgAAAEYAAAAoCAYAAABD0IyuAAAAAXNSR0IArs4c6QAAAgFJREFUaIHtmau26jAURde54xiwfEN1kEXzC2CLBM/HQGVjq/mGRKYWi2RgieSqMDhNd0sCpYg9VR/sdjHJq/TndrvdwHj8ns/noTN8JT/cYpr5N3SAb4XFELAYAhZDwGIIW..."
+[1566909775.017][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#js\\-candi\\-captcha"
+}
+[1566909775.017][INFO]: Waiting for pending navigations...
+[1566909775.019][INFO]: Done waiting for pending navigations. Status: ok
+[1566909775.035][INFO]: Waiting for pending navigations...
+[1566909775.036][INFO]: Done waiting for pending navigations. Status: ok
+[1566909775.036][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "2b0bf913-fcca-4804-908a-a698db9a2eb0"
+}
+[1566909775.123][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] COMMAND TypeElement {
+   "id": "2b0bf913-fcca-4804-908a-a698db9a2eb0",
+   "text": "9",
+   "value": [ "9" ]
+}
+[1566909775.123][INFO]: Waiting for pending navigations...
+[1566909775.125][INFO]: Done waiting for pending navigations. Status: ok
+[1566909775.178][INFO]: Waiting for pending navigations...
+[1566909775.180][INFO]: Done waiting for pending navigations. Status: ok
+[1566909775.180][INFO]: [ffe86d8126bcd0bb6a16f22cc77530a7] RESPONSE TypeElement
