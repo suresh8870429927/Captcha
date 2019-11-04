@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="V2TF86" name="testig.Captcha.App" tests="1" failures="0" timestamp="2 Jul 2019 15:02:42 GMT" time="10.714" errors="0">
+  <testcase name="captcha" time="10.699" classname="testig.Captcha.App"/>
+</testsuite>
